@@ -18,6 +18,7 @@ body {
 
 #question {
   height: 100px;
+  padding: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +36,7 @@ body {
 }
 
 #display {
-  height: 100px;
+  height: 200px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
