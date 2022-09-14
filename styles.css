@@ -63,9 +63,8 @@ body {
 }
 #result {
   position: fixed;
-  top: 10%; 
-  left: 10%;
-  transform: translate(-50%, -50%);
+  top: 20%; 
+  left: 20%;
   height: 250px;
   width: 400px;
   background-color: #171717;
@@ -182,13 +181,14 @@ button {
   top: 0;
 }
 
-@media only screen and (max-width: 575px) {
+
+@media only screen and (max-width: 767px) {
   .box-container {
     padding: 0 20px;
     width: 100%;
   }
 }
-@media only screen and (min-width:576px) {
+@media only screen and (min-width:768px) {
   #histories{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
